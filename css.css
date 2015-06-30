@@ -1,0 +1,158 @@
+.page .product .productr .price h1 em {
+    font-size: 32px;
+    padding-right: 3px;
+}
+
+.page .product .productr .price span {
+    position: relative;
+    float: left;
+    padding-left: 8px;
+    padding-top: 17px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.page .product .productr .price i {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f76120;
+    text-decoration: none;
+}
+
+.page .product .productr .price_num,
+.page .product .productr .price_year,
+.page .product .productr .price_month,
+.page .product .productr .price_day {
+    padding-top: 10px;
+}
+
+.page .product .productr .price_num span,
+.page .product .productr .price_year span,
+.page .product .productr .price_month span,
+.page .product .productr .price_day span {
+    background: #f0f0f0;
+    height: 30px;
+    border: 1px solid #ddd;
+    width: 21px;
+    float: left;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.page .product .productr .price_num input,
+.page .product .productr .price_month input,
+.page .product .productr .price_day input {
+    border: 1px solid #ddd;
+    height: 30px;
+    line-height: 30px;
+    width: 40px;
+    float: left;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+.page .product .productr .price_num ul,
+.page .product .productr .price_year ul,
+.page .product .productr .price_month ul,
+.page .product .productr .price_day ul {
+    float: right;
+    width: 367px;
+}
+
+.page .product .productr .price_num li,
+.page .product .productr .price_year li,
+.page .product .productr .price_month li,
+.page .product .productr .price_day li {
+    float: left;
+    padding: 5px 6px;
+    padding-right: 5px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+
+.page .product .productr .price_num li i,
+.page .product .productr .price_year li i,
+.page .product .productr .price_month li i,
+.page .product .productr .price_day li i {
+    position: absolute;
+    bottom: -2px;
+    _bottom: -7px;
+    right: -2px;
+    width: 10px;
+    height: 10px;
+}
+
+.page .product .productr .price_num .selected,
+.page .product .productr .price_year .selected,
+.page .product .productr .price_month .selected,
+.page .product .productr .price_day .selected {
+    border: 2px solid #23beb1;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+
+.page .product .productr .price_num .selected i,
+.page .product .productr .price_year .selected i,
+.page .product .productr .price_month .selected i,
+.page .product .productr .price_day .selected i {
+    background: url(/images/baojia_images/price_coin.png) no-repeat;
+}
+
+.page .product .productr .price_num .disabled,
+.page .product .productr .price_year .disabled,
+.page .product .productr .price_month .disabled,
+.page .product .productr .price_day .disabled {
+    background: #e8e8e8;
+    border: 1px solid #ccc;
+    color: #e8e8e8;
+}
+
+.page .product .productr .price_day ul li,
+.page .product .productr .price_month ul li {
+    margin-bottom: 10px;
+}
+
+.page .product .productr .price_submit {
+    padding: 0 0 0 62px;
+    padding-top: 10px \9;
+}
+
+.page .product .productr .price_submit .price_btn {
+    display: block;
+    width: 170px;
+    background: #2ebfb1;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-family: "microsoft yahei";
+}
+
+.page .product .productr .price_submit .price_btn_gray {
+    display: block;
+    width: 170px;
+    background: #2ebfb1;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-family: "microsoft yahei";
+    background: #ccc;
+}

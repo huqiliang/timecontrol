@@ -1,0 +1,36 @@
+<div class="productr clearfix">
+	<div class="price clearfix">
+		<h1>￥<em id="true_price">${pp.soldPrice}</em></h1>
+		<input type="hidden" id="priceHidden" value="${pp.soldPrice }"/>
+		<span>￥${pp.originalPrice }<i style="white-space:nowrap"><fmt:formatNumber value="${(pp.soldPrice /pp.originalPrice)*10}" pattern="##.00" type="number"/>折</i></span>			
+	</div>
+	<div class="price_num clearfix">
+		<label for="price_num">数量</label>
+		<span id="price_num_red">-</span>
+		<input type="text" value="1" id="price_num" name="price_num" />
+		<span id="price_num_add">+</span>
+		<!-- <i style="line-height:30px;">&nbsp;&nbsp;每人限购1份</i> -->
+	</div>
+	<div class="price_year clearfix">
+		<label for="price_year">年</label>
+		<ul>
+			
+		</ul>
+	</div>
+	<div class="price_month clearfix">
+		<label for="price_year">月份</label>
+		<ul>
+			
+		</ul>
+	</div>
+	<div class="price_day clearfix">
+		<label for="price_year">日期</label>
+		<ul>
+			
+		</ul>
+	</div>
+
+
+	<div class="price_submit"><a class="price_btn" id="takeorder" <c:if test="${pp.stock<1 || !activityStatus}">style="background:#ccc;"</c:if> >√立即抢购</a></div>
+
+</div>
